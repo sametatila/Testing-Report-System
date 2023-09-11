@@ -1990,7 +1990,7 @@ QPushButton:pressed {
                    <string notr="true">background: transparent;</string>
                   </property>
                   <property name="currentIndex">
-                   <number>2</number>
+                   <number>0</number>
                   </property>
                   <widget class="QWidget" name="page_home">
                    <property name="font">
@@ -2019,31 +2019,6 @@ QPushButton:pressed {
                         <layout class="QGridLayout" name="gridLayout_18">
                          <item row="0" column="0">
                           <layout class="QVBoxLayout" name="verticalLayout_32">
-                           <item>
-                            <widget class="QFrame" name="frame_21">
-                             <property name="minimumSize">
-                              <size>
-                               <width>0</width>
-                               <height>70</height>
-                              </size>
-                             </property>
-                             <property name="maximumSize">
-                              <size>
-                               <width>16777215</width>
-                               <height>80</height>
-                              </size>
-                             </property>
-                             <property name="styleSheet">
-                              <string notr="true">image: url(:/logo/logos/gt-white.png);</string>
-                             </property>
-                             <property name="frameShape">
-                              <enum>QFrame::StyledPanel</enum>
-                             </property>
-                             <property name="frameShadow">
-                              <enum>QFrame::Raised</enum>
-                             </property>
-                            </widget>
-                           </item>
                            <item>
                             <layout class="QVBoxLayout" name="verticalLayout_34">
                              <property name="topMargin">
@@ -7265,48 +7240,6 @@ QPushButton:disabled {
                                     </property>
                                    </widget>
                                   </item>
-                                  <item row="2" column="2">
-                                   <widget class="QPushButton" name="btn_export_excel">
-                                    <property name="minimumSize">
-                                     <size>
-                                      <width>0</width>
-                                      <height>30</height>
-                                     </size>
-                                    </property>
-                                    <property name="font">
-                                     <font>
-                                      <family>Segoe UI</family>
-                                      <pointsize>10</pointsize>
-                                     </font>
-                                    </property>
-                                    <property name="styleSheet">
-                                     <string notr="true">QPushButton {
-	border: 2px solid rgb(52, 59, 72);
-	border-radius: 5px;	
-	background-color: rgb(52, 59, 72);
-}
-QPushButton:hover {
-	background-color: rgb(57, 65, 80);
-	border: 2px solid rgb(61, 70, 86);
-}
-QPushButton:pressed {	
-	background-color: rgb(35, 40, 49);
-	border: 2px solid rgb(43, 50, 61);
-}
-QPushButton:disabled {	
-	background-color: rgb(72, 82, 100);
-	border: 2px solid rgb(43, 50, 61);
-}</string>
-                                    </property>
-                                    <property name="text">
-                                     <string>Excel Kaydet</string>
-                                    </property>
-                                    <property name="icon">
-                                     <iconset resource="files.qrc">
-                                      <normaloff>:/16x16/icons/16x16/cil-save.png</normaloff>:/16x16/icons/16x16/cil-save.png</iconset>
-                                    </property>
-                                   </widget>
-                                  </item>
                                   <item row="1" column="1">
                                    <widget class="QPushButton" name="btn_certificate">
                                     <property name="minimumSize">
@@ -7349,8 +7282,8 @@ QPushButton:disabled {
                                     </property>
                                    </widget>
                                   </item>
-                                  <item row="1" column="0">
-                                   <widget class="QPushButton" name="btn_score_report">
+                                  <item row="1" column="3">
+                                   <widget class="QPushButton" name="btn_institutional_report">
                                     <property name="minimumSize">
                                      <size>
                                       <width>0</width>
@@ -7383,7 +7316,7 @@ QPushButton:disabled {
 }</string>
                                     </property>
                                     <property name="text">
-                                     <string>Score Report</string>
+                                     <string>Kurumsal Rapor</string>
                                     </property>
                                     <property name="icon">
                                      <iconset resource="files.qrc">
@@ -7433,8 +7366,8 @@ QPushButton:disabled {
                                     </property>
                                    </widget>
                                   </item>
-                                  <item row="1" column="3">
-                                   <widget class="QPushButton" name="btn_institutional_report">
+                                  <item row="1" column="0">
+                                   <widget class="QPushButton" name="btn_score_report">
                                     <property name="minimumSize">
                                      <size>
                                       <width>0</width>
@@ -7467,7 +7400,7 @@ QPushButton:disabled {
 }</string>
                                     </property>
                                     <property name="text">
-                                     <string>Kurumsal Rapor</string>
+                                     <string>Score Report</string>
                                     </property>
                                     <property name="icon">
                                      <iconset resource="files.qrc">
@@ -7552,6 +7485,48 @@ QPushButton:disabled {
                                     </property>
                                     <property name="text">
                                      <string>Sınıf Listesi</string>
+                                    </property>
+                                    <property name="icon">
+                                     <iconset resource="files.qrc">
+                                      <normaloff>:/16x16/icons/16x16/cil-save.png</normaloff>:/16x16/icons/16x16/cil-save.png</iconset>
+                                    </property>
+                                   </widget>
+                                  </item>
+                                  <item row="2" column="2">
+                                   <widget class="QPushButton" name="btn_export_excel">
+                                    <property name="minimumSize">
+                                     <size>
+                                      <width>0</width>
+                                      <height>30</height>
+                                     </size>
+                                    </property>
+                                    <property name="font">
+                                     <font>
+                                      <family>Segoe UI</family>
+                                      <pointsize>10</pointsize>
+                                     </font>
+                                    </property>
+                                    <property name="styleSheet">
+                                     <string notr="true">QPushButton {
+	border: 2px solid rgb(52, 59, 72);
+	border-radius: 5px;	
+	background-color: rgb(52, 59, 72);
+}
+QPushButton:hover {
+	background-color: rgb(57, 65, 80);
+	border: 2px solid rgb(61, 70, 86);
+}
+QPushButton:pressed {	
+	background-color: rgb(35, 40, 49);
+	border: 2px solid rgb(43, 50, 61);
+}
+QPushButton:disabled {	
+	background-color: rgb(72, 82, 100);
+	border: 2px solid rgb(43, 50, 61);
+}</string>
+                                    </property>
+                                    <property name="text">
+                                     <string>Excel Kaydet</string>
                                     </property>
                                     <property name="icon">
                                      <iconset resource="files.qrc">
