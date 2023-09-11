@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pdf
+*.csv
+*.xls
+*.xlsx
+*.zip
+*.rar
+*.exe
+*.spec
